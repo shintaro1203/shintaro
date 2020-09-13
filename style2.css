@@ -1,0 +1,388 @@
+body{
+	margin:0;
+}
+
+/*ここからheader*/
+
+header{
+	width:100%;
+	height:140px;
+
+}
+
+.header{
+	width:85%;
+	margin:0 auto;
+}
+
+.header-logo{
+	font-size:24px;
+	color:#FF3366;
+	font-weight: bold;
+}
+
+.header-select{
+	text-align:center;
+	margin-top:-50px;
+
+}
+
+.header-select a:hover{
+	text-decoration: underline;
+}
+
+.header-select a{
+	margin-right:30px;
+	font-size:18px;
+	font-weight:lighter;
+	text-decoration: none;
+	color:black;
+}
+
+.header-right{
+	display: inline;
+	float: right;
+	margin-top:-25px;	
+}
+
+.header-right a{
+	text-decoration: none;
+	color:black;
+	font-weight:600;
+	margin-right:30px;
+}
+
+
+.header-menu{
+	margin-top:20px;
+}
+
+.header-contents{
+	height:40px;
+	float:left;
+	position: relative;
+	left:200px;
+	padding:15px 40px 5px 20px;
+	border-radius: 30px;
+}
+
+.header-contents:hover{
+	background-color: #dddddd;
+	cursor: pointer;
+}
+
+.header-contents div{
+	line-height: 0.3em;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.header-contents p{
+	line-height: 0.3em;
+	font-size: 14px;
+	color:#888888;
+
+}
+
+/*ここからmain*/
+
+.main , .main-sub{
+	width:85%;
+	margin:0 auto;
+}
+
+.main{
+	background-image:url(https://a0.muscache.com/im/pictures/e25f5be3-a60e-43ef-9f8f-dde79f4e98ca.jpg?im_q=highq&im_w=720);
+	background-size: cover;
+	border-radius: 20px;
+	padding: 40px 0 100px 40px;
+
+
+}
+
+.main-logo{
+	width:28%;
+}
+
+.main a{
+	font-size:18px;
+	color:black;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+
+.main-sub{
+	margin-top:50px;
+}
+
+
+.main-sub-contents{
+	width:calc(33.33% - 7px);
+	float:left;
+	margin-left:-15px;	
+	margin-bottom: 60px;
+}
+
+.main-sub-logo{
+	width:100%;
+	border-radius: 20px 20px 0 0;
+
+}
+
+.one,.two{
+	margin-right:30px;
+}
+
+.main-sub-contents div{
+	border-radius: 0 0 20px 20px;
+	box-shadow: 5px 5px 5px -7px;
+	height:80px;
+	
+} 
+
+.main-sub-contents div h2{
+	font-size: 18px;
+	line-height: 0.8em;
+	margin:7px 0 0 12px;
+}
+
+.main-sub-contents div p{
+	font-size: 15px;
+	line-height:1.2em;
+	margin-left:10px;
+	color:#666666;
+}
+
+.clear{
+	clear:left;
+}
+
+/*ここからmain2*/
+
+.main2{
+	width:100%;
+	margin:0 auto;
+	background-color:black;
+	height:850px;
+	color:white;
+}
+
+.main2-contents{
+	width:85%;
+	margin:0 auto;
+	padding-top:60px;
+}
+
+
+.main2-title{
+	width:45%;
+}
+
+.main2-title h1{
+	line-height: 0em;
+	font-size:32px;
+
+}
+
+.main2-title div{
+	line-height: 0.5em
+	width:20%;
+
+}
+
+
+.main2-title-btn{
+	float: right;
+	display: block;
+	margin-top: 10px;
+	color:white;
+	font-weight: bold;
+	border-radius: 10px;
+	border:solid 1px white;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.main2-logo{
+	margin-top: 30px;
+}
+
+.main2-logo-1{
+	background-image: url("https://a0.muscache.com/im/pictures/38aeacb5-7e77-4bf6-a813-754605020922.jpg?im_w=480");
+	width:520px;
+	height:580px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius:20px;
+	position:relative;
+}
+
+
+.main2-background-1{
+	background-color: #333333;
+	position: absolute;
+	top:520px;
+	height: 80px;
+	width:520px;
+	border-radius: 0 0px 20px 20px;
+}
+
+.main2-background-1 div{
+	margin:15px 15px 0 15px;
+	color:white;
+	font-weight:bolder;
+}
+
+.main2-logo-2{
+	background-image: url("https://a0.muscache.com/im/pictures/e77da774-9e72-46d6-a7fd-7d159f823046.jpg?im_w=240");
+	position: absolute;
+	left:640px;
+	top:1120px;
+	width:300px;
+	height:300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	
+}
+
+
+.main2-background-2,.main2-background-3 {
+	background-color: #333333;
+	position: absolute;
+	top:220px;
+	height: 80px;
+	width:300px;
+	border-radius: 0 0px 20px 20px;
+}
+
+.main2-background-2 div,.main2-background-3 div{
+	margin:15px 15px 0 15px;
+	color:white;
+	font-weight:bolder;
+}
+
+
+
+.main2-logo-3{
+	background-image: url("https://a0.muscache.com/im/pictures/7f607dbc-c51c-482e-8b67-55ded3e7f864.jpg?im_w=240");
+	position: absolute;
+	left:960px;
+	top:1120px;
+	width:300px;
+	height:300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	
+}
+
+
+	
+.main2-logo-4{
+	background-image: url("https://a0.muscache.com/im/pictures/d88db0e7-ef5b-49c6-ae07-af3525ac252f.jpg?im_w=480");
+	position: absolute;
+	left:640px;
+	top:1440px;
+	width:620px;
+	height:280px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	
+}
+
+.main2-background-4{
+	background-color: #333333;
+	position: absolute;
+	top:200px;
+	height: 80px;
+	width:620px;
+	border-radius: 0 0px 20px 20px;
+}
+
+.main2-background-4 div{
+	margin:15px 15px 0 15px;
+	color:white;
+	font-weight:bolder;
+}
+
+
+/*ここから.info*/
+
+.info{
+	margin:60px auto 0;
+	width:85%;
+	height:300px;
+}
+
+.corp-info, .community-info, .host-info, .support-info{
+	margin-bottom: 15px;
+	font-size: 12px;
+	font-weight: bolder;
+
+}
+
+.info-contents{
+	width:25%;
+	float:left;
+}
+
+.info-contents a{
+	color:black;
+	font-size: 12px;
+	display:block;
+	margin-bottom: 15px;
+	text-decoration:none;
+
+}
+
+.info-contents a:hover{
+	text-decoration: underline;
+}
+
+/*ここからfooter*/
+
+footer{
+	width:85%;
+	margin:60px auto 30px;
+	border-top:solid 1px #cccccc;
+}
+
+.footer{
+	margin-top:20px;
+}
+
+.footer-right{
+	font-size: 14px;
+	text-decoration:none;
+	color:black;
+	float:right;
+}
+
+.footer-right div{
+	display: inline;
+}
+
+.footer-info{
+	margin-right:50px;
+}
+
+.footer-right a{
+	margin-right:20px;
+	font-size: 14px;
+	font-weight:bolder;
+	color:black;
+
+}
+
+.footer-left a{
+	font-size:14px;
+	text-decoration: none;
+	color:black;
+
+}
+
+.footer-left a:hover{
+	text-decoration:underline;
